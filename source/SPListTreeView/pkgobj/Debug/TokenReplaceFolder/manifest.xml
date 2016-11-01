@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="4d8db595-1835-454d-bb8d-eb948b76a6fe" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="SPHierarchyBase.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="SPListTreeView.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="SPListTreeView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c9139b66ce2be415" Namespace="SPListTreeView.Webparts.SPListTreeViewWebPart" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="SPListTreeView_TreeViewWebPart\Feature.xml" />
+  </FeatureManifests>
+</Solution>

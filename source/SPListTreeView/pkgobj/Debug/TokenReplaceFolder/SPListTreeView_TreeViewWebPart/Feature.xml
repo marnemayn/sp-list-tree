@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="SPListTreeView Web part" Description="Creates a web part for displaying SharePoint lists as tree views." Id="35274897-8735-4701-bd8c-dc5d5cecda59" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="SPListTreeViewWebPart\Elements.xml" />
+    <ElementFile Location="SPListTreeViewWebPart\SPListTreeViewWebPart.webpart" />
+  </ElementManifests>
+</Feature>

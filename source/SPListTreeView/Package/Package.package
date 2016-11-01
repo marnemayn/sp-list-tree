@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="4d8db595-1835-454d-bb8d-eb948b76a6fe" solutionId="4d8db595-1835-454d-bb8d-eb948b76a6fe" resetWebServer="false" sharePointProductVersion="15.0" name="SPListTreeView" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <projectOutputAssembly location="SPHierarchyBase.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\SPHierarchyBase\SPHierarchyBase.csproj" />
+  </assemblies>
+  <features>
+    <featureReference itemId="b9e1ac83-65de-4d80-ab49-cc63c3834871" />
+  </features>
+</package>
